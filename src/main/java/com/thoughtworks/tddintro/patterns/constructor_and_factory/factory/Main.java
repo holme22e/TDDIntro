@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Shape> shapes = new ArrayList<>();
+        List<Shape> shapes = new ArrayList<Shape>();
         // Static Factory Method
         Shape square = Shape.createSquareWithSidesOfLength(5);
         shapes.add(square);
